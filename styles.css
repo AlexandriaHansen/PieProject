@@ -1,0 +1,113 @@
+
+body {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6e4d9;
+    background-image: url('images/pattern.png');
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainheader {
+    background-color: #a593c2;
+    font-size: 30px;
+}
+
+nav {
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li {
+    float: left;
+}
+
+nav>ul>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#leftmenu {
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+aside>header {
+    text-align: center;
+}
+
+.searchbox {
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+.main {
+    float: right;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+}
+
+header,
+section,
+nav,
+footer,
+aside,
+main,
+article,
+figure {
+    display: block;
+}
+
+table, 
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.details {
+    background-color: #f8f4f1;
+    padding: 10px;
+}
+
+span {
+    color: #4dcfa8;
+    font-weight: bold;
+}
+
+.pagetitles {
+    color:#a593c2;
+    font-size: 40px;
+}
+
+h2, h3 {
+    color:#a593c2;
+}
+
